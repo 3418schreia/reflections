@@ -6,3 +6,7 @@ How is the staging area different from the working directory and the repository?
 
 	The staging area allows you to add files one at a time, then bundles them together into a single commit. 
 	It could help you keep track of incremental changes you make on different files without creating a commit for each file seperately.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can compare between the staging area, working directory, and most recent commit to track the size of the changes you've made.
