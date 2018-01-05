@@ -2,4 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 	
 	When you initialize a repository you create a connection with Git, which stores metadata about the files you're working with.
 	
-	
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area allows you to add files one at a time, then bundles them together into a single commit. 
+	It could help you keep track of incremental changes you make on different files without creating a commit for each file seperately.
