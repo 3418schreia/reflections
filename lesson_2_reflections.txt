@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	When you initialize a repository you create a connection with Git, which stores metadata about the files you're working with.
+	
+	
