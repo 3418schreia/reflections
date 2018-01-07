@@ -1,12 +1,24 @@
 What happens when you initialize a repository? Why do you need to do it?
 	
-	When you initialize a repository you create a connection with Git, which stores metadata about the files you're working with.
+	When you initialize a repository you create a connection with Git, which stores
+	metadata about the files you're working with.
 	
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the repository?
+ What value do you think it offers?
 
-	The staging area allows you to add files one at a time, then bundles them together into a single commit. 
-	It could help you keep track of incremental changes you make on different files without creating a commit for each file seperately.
+	The staging area allows you to add files one at a time, then bundles them together
+	into a single commit. 
+	It could help you keep track of incremental changes you make on different files
+	without creating a commit for each file seperately.
 	
 How can you use the staging area to make sure you have one commit per logical change?
 
-	You can compare between the staging area, working directory, and most recent commit to track the size of the changes you've made.
+	You can compare between the staging area, working directory, and most recent commit
+	to track the size of the changes you've made.
+	
+What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
+
+	Branches are helpful when you have multiple versions that you want to keep or test
+	seperately. Branches allows you to makes changes and test different features without
+	changing an earlier master version.
